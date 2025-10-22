@@ -222,9 +222,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB      &kp PG_DN     &kp PG_UP     &kp INS         &kp N4     &kp N5    &kp N6    &kp N7    &kp N8        &kp N9     &kp N0  &kp BSPC
-&tog 4       &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp LEFT  &kp DOWN  &kp UP        &kp RIGHT  &trans  &tog 5
-&bootloader  &trans        &trans        &trans          &trans     &trans    &kp DEL   &kp HOME  &kp END       &trans     &trans  &trans
+&kp TAB      &kp PG_DN     &kp PG_UP     &kp INS         &kp N4     &kp N5    &kp N6    &kp N7    &kp N8        &kp N9          &kp N0  &kp BSPC
+&tog 4       &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &trans    &kp LEFT  &kp DOWN  &kp UP        &kp RIGHT       &trans  &tog 5
+&bootloader  &trans        &trans        &trans          &trans     &trans    &kp DEL   &kp HOME  &kp END       &studio_unlock  &trans  &trans
                                          &kp LGUI        &trans     &trans    &trans    &trans    &kp LEFT_ALT
             >;
 
@@ -238,6 +238,8 @@
 &trans  &sk LG(LEFT_SHIFT)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &kp MINUS       &kp EXCL  &kp AT     &kp HASH   &kp PIPE       &kp TILDE
                                           &trans        &trans        &trans    &trans          &trans    &trans
             >;
+
+            label = "NUM";
         };
 
         Fn {
@@ -247,6 +249,8 @@
 &kp F16  &kp F13  &kp F1  &kp F2  &kp F3  &kp F10    &bt BT_SEL 2  &trans           &trans            &trans        &out OUT_USB  &out OUT_BLE
                           &trans  &trans  &trans     &bootloader   &trans           &trans
             >;
+
+            label = "FUN";
         };
 
         MouseNav {
@@ -256,6 +260,8 @@
 &trans  &trans  &trans  &trans  &trans    &trans      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans
                         &trans  &mkp MB4  &mkp MB1    &mkp MB2        &mkp MB5        &trans
             >;
+
+            label = "MOUSE";
         };
 
         Gaming1 {
@@ -265,6 +271,8 @@
 &kp I       &kp LCTRL       &kp Z  &kp X           &kp C  &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                                    &msc SCRL_DOWN  &mo 6  &kp SPACE    &tog 5  &trans  &trans
             >;
+
+            label = "GAM";
         };
 
         GamingLayer2 {
@@ -274,6 +282,8 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans        &trans    &trans  &trans  &trans
             >;
+
+            label = "GAM2";
         };
     };
 
