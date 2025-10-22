@@ -210,6 +210,8 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C          &kp V  &kp B        &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                               &kp LEFT_META  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp LEFT_ALT
             >;
+
+            label = "BAS";
         };
 
         Nav {
@@ -225,6 +227,8 @@
 &bootloader  &trans        &trans        &trans          &trans     &trans    &kp DEL   &kp HOME  &kp END       &trans     &trans  &trans
                                          &kp LGUI        &trans     &trans    &trans    &trans    &kp LEFT_ALT
             >;
+
+            label = "NAV";
         };
 
         Num_Sym {
