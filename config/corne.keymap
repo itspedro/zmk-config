@@ -222,10 +222,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB      &trans   &kp EXCLAMATION  &kp AT       &kp HASH   &trans      &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp DEL  &kp BSPC
-&tog 4       &kp INS  &kp DOLLAR       &kp PERCENT  &kp CARET  &trans      &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans   &tog 5
-&bootloader  &trans   &kp AMPERSAND    &kp STAR     &kp MINUS  &kp PLUS    &kp TILDE  &trans         &trans        &trans     &trans   &trans
-                                       &kp LGUI     &trans     &trans      &trans     &trans         &kp LEFT_ALT
+&kp TAB  &trans   &kp EXCLAMATION  &kp AT       &kp HASH   &trans      &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp DEL  &kp LA(BSPC)
+&tog 4   &kp INS  &kp DOLLAR       &kp PERCENT  &kp CARET  &trans      &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans   &tog 5
+&trans   &trans   &kp AMPERSAND    &kp STAR     &kp MINUS  &kp PLUS    &kp TILDE  &trans         &trans        &trans     &trans   &trans
+                                   &kp LGUI     &trans     &trans      &trans     &trans         &kp LEFT_ALT
             >;
 
             label = "NAV";
