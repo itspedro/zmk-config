@@ -222,10 +222,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &trans   &kp EXCLAMATION  &kp AT       &kp HASH   &trans      &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp DEL  &kp LA(BSPC)
-&tog 4   &kp INS  &kp DOLLAR       &kp PERCENT  &kp CARET  &trans      &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans   &tog 5
-&trans   &trans   &kp AMPERSAND    &kp STAR     &kp MINUS  &kp PLUS    &kp TILDE  &trans         &trans        &trans     &trans   &trans
-                                   &kp LGUI     &trans     &trans      &trans     &trans         &kp LEFT_ALT
+&kp ESCAPE  &kp EXCL       &kp AT       &kp HASH  &kp DOLLAR  &kp PLUS     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp DEL  &kp LA(BSPC)
+&tog 4      &kp AMPERSAND  &kp PERCENT  &kp STAR  &kp CARET   &kp MINUS    &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT  &trans   &tog 5
+&trans      &trans         &trans       &trans    &trans      &trans       &kp TILDE  &trans         &trans        &trans     &trans   &kp INSERT
+                                        &kp LGUI  &trans      &trans       &trans     &trans         &kp LEFT_ALT
             >;
 
             label = "NAV";
@@ -233,9 +233,9 @@
 
         Num_Sym {
             bindings = <
-&trans  &trans              &kp N1  &kp N2  &kp N3  &trans    &kp UNDERSCORE  &kp AMPS  &kp STAR   &kp MINUS  &kp PLUS       &trans
-&trans  &kp N0              &kp N4  &kp N5  &kp N6  &trans    &kp EQUAL       &kp DLLR  &kp PRCNT  &kp CARET  &kp BACKSLASH  &kp GRAVE
-&trans  &sk LG(LEFT_SHIFT)  &kp N7  &kp N8  &kp N9  &trans    &kp MINUS       &kp EXCL  &kp AT     &kp HASH   &kp PIPE       &kp TILDE
+&trans              &kp N1  &kp N2  &kp N3  &trans  &trans    &kp UNDERSCORE  &kp AMPS  &kp STAR   &kp MINUS  &kp PLUS       &trans
+&kp N0              &kp N4  &kp N5  &kp N6  &trans  &trans    &kp EQUAL       &kp DLLR  &kp PRCNT  &kp CARET  &kp BACKSLASH  &kp GRAVE
+&sk LG(LEFT_SHIFT)  &kp N7  &kp N8  &kp N9  &trans  &trans    &kp MINUS       &kp EXCL  &kp AT     &kp HASH   &kp PIPE       &kp TILDE
                                     &trans  &trans  &trans    &trans          &trans    &trans
             >;
 
@@ -244,10 +244,10 @@
 
         Fn {
             bindings = <
-&kp F18  &kp F15  &kp F7  &kp F8  &kp F9  &kp F12    &bt BT_SEL 0  &kp C_VOLUME_UP  &kp C_MUTE        &kp C_VOL_DN  &bt BT_CLR    &sys_reset
-&kp F17  &kp F14  &kp F4  &kp F5  &kp F6  &kp F11    &bt BT_SEL 1  &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT    &out OUT_TOG  &bootloader
-&kp F16  &kp F13  &kp F1  &kp F2  &kp F3  &kp F10    &bt BT_SEL 2  &trans           &trans            &trans        &out OUT_USB  &out OUT_BLE
-                          &trans  &trans  &trans     &bootloader   &trans           &trans
+&kp F18  &kp F15  &kp F7  &kp F8  &kp F9  &kp F12    &bt BT_SEL 0  &kp C_VOLUME_UP       &kp C_MUTE        &kp C_VOL_DN          &bt BT_CLR    &sys_reset
+&kp F17  &kp F14  &kp F4  &kp F5  &kp F6  &kp F11    &bt BT_SEL 1  &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT            &out OUT_TOG  &bootloader
+&kp F16  &kp F13  &kp F1  &kp F2  &kp F3  &kp F10    &bt BT_SEL 2  &kp C_BRIGHTNESS_INC  &trans            &kp C_BRIGHTNESS_DEC  &out OUT_USB  &out OUT_BLE
+                          &trans  &trans  &trans     &bootloader   &trans                &trans
             >;
 
             label = "FUN";
