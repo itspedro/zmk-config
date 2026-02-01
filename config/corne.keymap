@@ -233,10 +233,10 @@
 
         Num_Sym {
             bindings = <
-&trans              &kp N1  &kp N2  &kp N3  &trans  &trans    &kp UNDERSCORE  &kp AMPS  &kp STAR   &kp MINUS  &kp PLUS       &trans
-&kp N0              &kp N4  &kp N5  &kp N6  &trans  &trans    &kp EQUAL       &kp DLLR  &kp PRCNT  &kp CARET  &kp BACKSLASH  &kp GRAVE
-&sk LG(LEFT_SHIFT)  &kp N7  &kp N8  &kp N9  &trans  &trans    &kp MINUS       &kp EXCL  &kp AT     &kp HASH   &kp PIPE       &kp TILDE
-                                    &trans  &trans  &trans    &trans          &trans    &trans
+&trans              &kp N1  &kp N2  &kp N3  &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &trans
+&kp N0              &kp N4  &kp N5  &kp N6  &kp PLUS      &kp AMPERSAND     &kp EQUAL     &kp DLLR      &kp PRCNT     &kp CARET     &kp BACKSLASH  &kp GRAVE
+&sk LG(LEFT_SHIFT)  &kp N7  &kp N8  &kp N9  &kp MINUS     &kp UNDERSCORE    &kp MINUS     &kp EXCL      &kp AT        &kp HASH      &kp PIPE       &kp TILDE
+                                    &trans  &trans        &trans            &trans        &trans        &trans
             >;
 
             label = "NUM";
